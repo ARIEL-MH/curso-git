@@ -47,3 +47,4 @@ git stash
 git stash list
 git stash save "test stash"
 git stash pop stash@{0}
+git stash --include-untracked
