@@ -22,3 +22,7 @@ git commit -m "mensaje del commit"
 git push
 git pull //actualizar cambios de lo que hay en el repositorio remoto.
 git branch
+5. Ramas
+git switch -c <nombreDeLaRama>  //crear una rama y la usa
+git switch <nombreDeLaRama> //cambiar de rama
+git branch -D <nombreDeLaRama> //eliminar rama
