@@ -26,3 +26,18 @@ git branch
 git switch -c <nombreDeLaRama>  //crear una rama y la usa
 git switch <nombreDeLaRama> //cambiar de rama
 git branch -D <nombreDeLaRama> //eliminar rama
+git merge <nombreDeLaRama> //traer cambios de un ramas
+6. Comando útiles
+STATUS
+git status
+git status -s //version reducida
+git config color.status.branch magenta //para cambiar el color del nombre de la rama
+git config color.status.added blue //color azul los cambios 
+git config color.status.untracked "141 bold"
+LOG
+git log //informacion completa de cada commit
+git log --oneline //saber el titulo de la lista de cambios
+git log -n 2 //numero de commit que quiero que me retorne
+git log --oneline -n 2 //version resumida de los dos ultimos cambios (se puede agrupar comandos)
+git log --format=short // informacion -> short medium full
+DIFF
