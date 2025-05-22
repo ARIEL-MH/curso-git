@@ -41,3 +41,4 @@ git log -n 2 //numero de commit que quiero que me retorne
 git log --oneline -n 2 //version resumida de los dos ultimos cambios (se puede agrupar comandos)
 git log --format=short // informacion -> short medium full
 DIFF
+git diff 
