@@ -1,5 +1,5 @@
 1.Crear clave ssh
-ssh_keygen -t ed25519 -C "adrielmon4@gmail.com"
+ssh_keygen -t ed25519 -C "correo@gmail.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/ .ssh/id_ed25519
 Conectar con cuenta de GitHub.
@@ -13,3 +13,12 @@ git add .
 git add -A  
 git add -u
 git reset 
+git status
+3.Guardar cambios
+git commit -> Ingresar el mensaje :wq salir
+git log
+git commit -m "mensaje del commit"
+4. Sincronizar cambios
+git push
+git pull //actualizar cambios de lo que hay en el repositorio remoto.
+git branch
