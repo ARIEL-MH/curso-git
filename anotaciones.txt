@@ -52,3 +52,8 @@ SHOW
 git show //ver cambios de un comando en especifico
 7. Confictos
 git checkout --theirs <nombreDelArchivo>
+8. Desacer cambios
+git checkout main.js //cambios se pierden para siempre
+git checkout . //desace cambios de todo el proyecto 
+
+
