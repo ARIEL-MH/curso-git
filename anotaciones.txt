@@ -51,3 +51,4 @@ git stash --include-untrackedq
 SHOW
 git show //ver cambios de un comando en especifico
 7. Confictos
+git checkout --theirs <nombreDelArchivo>
